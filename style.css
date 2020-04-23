@@ -1,0 +1,60 @@
+@use "@material/form-field/mdc-form-field";
+@use "@material/checkbox/mdc-checkbox";
+@use "@material/form-field/mdc-form-field";
+@use "@material/radio/mdc-radio";
+@use "@material/switch/mdc-switch";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+
+body {
+    margin: 30px 100px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+header span {
+    font-size: 15px;
+    color: red;
+    font-weight: 300;
+}
+.wrap {
+    padding: 20px 20px;
+    border: 2px solid red;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 18px;
+    margin: 0 0 20px 10px;
+    display: block;
+}
+.fruitBlock {
+    margin: 20px 50px;
+}
+.fruitBlock--img {
+    height: 100px;
+    width: 100px;
+}
+.text-for-switch {
+    margin-left: 10px;
+}
+.dtd {
+    display: flex;
+}
+.deliveryBlock {
+    position: relative;
+}
+.switches {
+    display: flex;
+    flex-direction: row;
+}
+.off {
+    position: absolute;
+    top: 102px;
+    left: 40px;
+}

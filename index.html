@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Controls</title>
+    <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header><h1>Material Design Examples: <span>Selection Controls</span></h1></header>
+
+    <section class="checkboxes wrap">
+        <h2>What fruit do you prefer:</h2>
+        <!-- apple -->
+        <div class="mdc-form-field apple fruitBlock">
+            <img src="https://lh3.googleusercontent.com/proxy/U9BwbpH_duQSmDD0RELbzwbij89LuO8dB_uuGw6gTC4FvsfZOnRQPmLc4Z8Au8EWTk2Imw27PRbF-UndVVy8Pjm5PBmTWmhIMXfDFfSNyXKTOw"  class="fruitBlock--img" alt="">
+            <div class="mdc-checkbox">
+              <input type="checkbox"
+                     class="mdc-checkbox__native-control"
+                     id="checkbox-1"/>
+              <div class="mdc-checkbox__background">
+                <svg class="mdc-checkbox__checkmark"
+                     viewBox="0 0 24 24">
+                  <path class="mdc-checkbox__checkmark-path"
+                        fill="none"
+                        d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                </svg>
+                <div class="mdc-checkbox__mixedmark"></div>
+              </div>
+              <div class="mdc-checkbox__ripple"></div>
+            </div>
+            <label for="checkbox-1">Apple</label>
+          </div>
+
+          <!-- banana -->
+          <div class="mdc-form-field banana fruitBlock">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/61fZ%2BYAYGaL._SL1500_.jpg"  class="fruitBlock--img" alt="">
+            <div class="mdc-checkbox">
+              <input type="checkbox"
+                     class="mdc-checkbox__native-control"
+                     id="checkbox-1"/>
+              <div class="mdc-checkbox__background">
+                <svg class="mdc-checkbox__checkmark"
+                     viewBox="0 0 24 24">
+                  <path class="mdc-checkbox__checkmark-path"
+                        fill="none"
+                        d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                </svg>
+                <div class="mdc-checkbox__mixedmark"></div>
+              </div>
+              <div class="mdc-checkbox__ripple"></div>
+            </div>
+            <label for="checkbox-1">Banana</label>
+          </div>
+
+          <!-- orange -->
+          <div class="mdc-form-field orange fruitBlock">
+            <img src="https://lh3.googleusercontent.com/proxy/zqcYFpcZ1p9L5oVFqzbXROE3cMaHmrC3D6Oczv-IDASUgxU1mobeKjGPt58goS6dMkmZVL1M_rrRXQc"  class="fruitBlock--img" alt="">
+            <div class="mdc-checkbox">
+              <input type="checkbox"
+                     class="mdc-checkbox__native-control"
+                     id="checkbox-1"/>
+              <div class="mdc-checkbox__background">
+                <svg class="mdc-checkbox__checkmark"
+                     viewBox="0 0 24 24">
+                  <path class="mdc-checkbox__checkmark-path"
+                        fill="none"
+                        d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                </svg>
+                <div class="mdc-checkbox__mixedmark"></div>
+              </div>
+              <div class="mdc-checkbox__ripple"></div>
+            </div>
+            <label for="checkbox-1">Orange</label>
+          </div>
+    </section>
+
+    <section class="radio-buttons wrap">
+      <h2>Select a present for your father:</h2>
+
+      <!-- bicycle -->
+      <div class="mdc-form-field fruitBlock">
+        <img src="https://cdn.shopify.com/s/files/1/1245/1481/products/Hero_600_square2.jpg?v=1546547634"  class="fruitBlock--img" alt="">
+        <div class="mdc-radio">
+          <input class="mdc-radio__native-control" type="radio" id="radio-1" name="radios" checked>
+          <div class="mdc-radio__background">
+            <div class="mdc-radio__outer-circle"></div>
+            <div class="mdc-radio__inner-circle"></div>
+          </div>
+          <div class="mdc-radio__ripple"></div>
+        </div>
+        <label for="radio-1">Bicycle</label>
+      </div>
+
+      
+      <!-- drone -->
+      <div class="mdc-form-field fruitBlock">
+        <img src="https://wifi.kz/upload/resize_cache/iblock/7ed/2000_2000_140cd750bba9870f18aada2478b24840a/1535037711000_1430448.jpg" class="fruitBlock--img" alt="">
+        <div class="mdc-radio">
+          <input class="mdc-radio__native-control" type="radio" id="radio-1" name="radios" checked>
+          <div class="mdc-radio__background">
+            <div class="mdc-radio__outer-circle"></div>
+            <div class="mdc-radio__inner-circle"></div>
+          </div>
+          <div class="mdc-radio__ripple"></div>
+        </div>
+        <label for="radio-1">Drone</label>
+      </div>
+
+      <!-- AirPods -->
+      <div class="mdc-form-field fruitBlock">
+        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWP22?wid=1144&hei=1144&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1572990352299" class="fruitBlock--img" alt="">
+        <div class="mdc-radio">
+          <input class="mdc-radio__native-control" type="radio" id="radio-1" name="radios" checked>
+          <div class="mdc-radio__background">
+            <div class="mdc-radio__outer-circle"></div>
+            <div class="mdc-radio__inner-circle"></div>
+          </div>
+          <div class="mdc-radio__ripple"></div>
+        </div>
+        <label for="radio-1">AirPods</label>
+      </div>
+
+    </section>
+
+    <section class="switches wrap">
+      <h2>Choose delivery method:</h2>
+
+      <!-- Door-to-door  -->
+      <div class="fruitBlock deliveryBlock">
+        <img src="https://sc01.alicdn.com/kf/HTB1NhWIs_lYBeNjSszcq6zwhFXaF/door-to-door-delivery-service-from-Guangzhou.jpg_350x350.jpg" alt="" class="fruitBlock--img">
+        <div class="mdc-switch mdc-switch--checked dtd">
+          <div class="mdc-switch__track"></div>
+          <div class="mdc-switch__thumb-underlay">
+            <div class="mdc-switch__thumb"></div>
+            <input type="checkbox" id="another-basic-switch" class="mdc-switch__native-control" role="switch" aria-checked="true" checked>
+          </div>
+          <label for="another-basic-switch" class="text-for-switch">Door-to-door</label>
+        </div>
+      </div>
+      
+       <!-- To Post Office  -->
+       <div class="fruitBlock deliveryBlock">
+        <img src="https://drawinghowtos.com/wp-content/uploads/2020/02/post-office-colored-300x300.png" alt="" class="fruitBlock--img">
+        <div class="mdc-switch mdc-switch--disabled dtd">
+          <div class="mdc-switch__track"></div>
+          <div class="mdc-switch__thumb-underlay">
+            <div class="mdc-switch__thumb"></div>
+            <input type="checkbox" id="another-basic-switch" class="mdc-switch__native-control" role="switch" aria-checked="false" disabled>
+          </div>
+        </div>
+        <label for="another-basic-switch" class="off">To Post Office</label>
+      </div>
+      
+      <!-- PickUp  -->
+      <div class="fruitBlock deliveryBlock">
+        <img src="https://365psd.com/images/previews/204/red-car-vector-graphics-eps-59011.jpg" alt="" class="fruitBlock--img">
+        <div class="mdc-switch mdc-switch--disabled dtd">
+          <div class="mdc-switch__track"></div>
+          <div class="mdc-switch__thumb-underlay">
+            <div class="mdc-switch__thumb"></div>
+            <input type="checkbox" id="another-basic-switch" class="mdc-switch__native-control" role="switch" aria-checked="false" disabled>
+          </div>
+        </div>
+        <label for="another-basic-switch" class="off">PickUp</label>
+      </div>
+      
+      
+
+    </section>
+
+</body>
+</html>
